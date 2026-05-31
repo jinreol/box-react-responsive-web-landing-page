@@ -1,0 +1,16 @@
+:root {
+  --color-accent: #a9ff5c;
+  --color-accent-10: #1f2b15;
+  --color-accent-25: #426027;
+  --color-accent-light: #e1ffc7;
+  --color-gray-60: #979f90;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: black;
+}
