@@ -1,9 +1,51 @@
+@font-face {
+  font-family: "TT Travels";
+  src: url("./assets/fonts/TTTravels-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TT Travels";
+  src: url("./assets/fonts/TTTravels-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TT Travels";
+  src: url("./assets/fonts/TTTravels-Medium.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Futura PT Cond Extra Bold";
+  src: url("./assets/fonts/Futura-PT-Cond-Extra-Bold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 :root {
+  /* Font */
+  --font-primary: "TT Travels", sans-serif;
+  --font-secondary: "Futura PT Cond Extra Bold", sans-serif;
+
+  /* Color */
   --color-accent: #a9ff5c;
   --color-accent-10: #1f2b15;
   --color-accent-25: #426027;
   --color-accent-light: #e1ffc7;
   --color-gray-60: #979f90;
+  --color-black: #000000;
+
+  /* Spacing */
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 24px;
+  --space-4: 32px;
+  --space-5: 40px;
+  --space-6: 48px;
+  --space-7: 56px;
+  --space-8: 64px;
+  --space-9: 72px;
 }
 
 * {

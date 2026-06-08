@@ -1,16 +1,22 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "./assets/vite.svg";
-import heroImg from "./assets/hero.png";
-import "./App.css";
+import styles from "./App.module.css";
+import Navigation from "./Navigation";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-      <div>
-        <h2>Hello React</h2>
+      <div className={styles.containerPadding}>
+        <div className={styles.container} style={{}}>
+          <div className={styles.navigation}>
+            <Navigation />
+          </div>
+
+          <div className={styles.firstBlock}>
+            <h1 style={{ color: "white" }}>first block</h1>
+          </div>
+        </div>
       </div>
     </>
   );
