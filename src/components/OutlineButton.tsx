@@ -1,4 +1,4 @@
-import styles from "./OutlineButton.module.css";
+import styles from "@/components/OutlineButton.module.css";
 
 // 1. Props의 타입 정의
 interface OutlineButtonProps {
