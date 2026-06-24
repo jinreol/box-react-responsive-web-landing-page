@@ -1,29 +1,20 @@
-import styles from "@presentations/home/views/FirstBlock.module.css";
-import photos from "@assets/images/photos.png";
-import icArrowRight from "@assets/images/ic_arrow_right.svg";
-import FullButton from "@components/FullButton";
+import FirstBlockComp01 from "@presentations/home/views/FirstBlockComp01";
+import FirstBlockComp02 from "@presentations/home/views/FirstBlockComp02";
+import FirstBlockComp03 from "@presentations/home/views/FirstBlockComp03";
+import FirstBlockButton from "@presentations/home/views/FirstBlockButton";
 
 function FirstBlock() {
   return (
-    <div className={styles.firstBlock}>
-      <div className={styles.firstBlockComp01}>
-        <img className={styles.photos} src={photos} alt="" />
-        <div className={styles.firstBlockComp01Text}>
-          What Other Say About Us
-        </div>
-        <img src={icArrowRight} alt="Arrow Right" />
-      </div>
-      <div className={styles.firstBlockComp02}>
-        <div className={styles.firstBlockComp02Text01}>
-          <span>GROW SALES</span> WITH OUR STRATEGY FIRST APPROACH
-        </div>
-        <div className={styles.firstBlockComp02Text02}>
-          Forge’s sales and marketing solutions are strategically assigned each
-          month to adapt quickly and hit your goals.
-        </div>
-      </div>
-      <div className={styles.firstBlockComp03}>
-        <FullButton title="Book a Free Consultation" />
+    <div className="mt-112 md:mt-256 lg:mt-96">
+      <div className="flex flex-col items-center justify-center">
+        {/* What Other Say About Us */}
+        <FirstBlockComp01 />
+        {/* Grow Sales With Our Strategy First Approach */}
+        <FirstBlockComp02 />
+        {/* Forge’s sales and marketing solutions... */}
+        <FirstBlockComp03 />
+        {/* Full Button */}
+        <FirstBlockButton />
       </div>
     </div>
   );
