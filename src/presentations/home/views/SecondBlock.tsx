@@ -1,14 +1,3 @@
-/*
-.second-block-comp-01-text-01 {
-  font-family: "Futura PT Cond Extra Bold", sans-serif;
-  font-size: 40px;
-  color: white;
-  line-height: 0.92; 
-  letter-spacing: -0.02em;
-  max-width: 700px;
-}
-
-*/
 function SecondBlock() {
   return (
     <>
